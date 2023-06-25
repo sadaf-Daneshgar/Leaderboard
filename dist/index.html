@@ -1,11 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leaderboard</title>
-  <script defer src="index.bundle.js"></script></head>
-  <body>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leaderboard</title>
+<script defer src="index.bundle.js"></script></head>
+
+<body>
+  <header>
+    <h1>Leaderboard</h1>
+  </header>
+  <main>
+    <section class="main-section">
+     <div class="first-table">
+      <div class="recent">
+        <h2>Recent scores</h2>
+        <button type="button" class="btn-ref">Refresh</button>
+      </div>
+      <table class="table">
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Score</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Sadaf</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Basira</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Adila</td>
+          <td>95</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Atifa</td>
+          <td>90</td>
+        </tr>
+      </table>
+     </div>
+      <div class="right-side">
+        <h3>Add your score</h3>
+        <div class="form-part">
+          <input type="text" class="name" placeholder="Your name" id="name"><br>
+          <input type="text" class="score" placeholder="your score" id="score"><br>
+          <button class="btn-sub" type="button">Submit</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer">
+      <p>Copyright @Sadaf Daneshgar</p>
+    </div>
+  </footer>
+</body>
+
 </html>
