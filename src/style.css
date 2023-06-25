@@ -49,6 +49,6 @@ h1 {
   padding: 12px;
 }
 
-.table tr:nth-child(odd){background-color: #78ede5;}
+.table tr:nth-child(odd) { background-color: #78ede5; }
 
-.table tr:hover {background-color: #ddd;}
+.table tr:hover { background-color: #ddd; }
