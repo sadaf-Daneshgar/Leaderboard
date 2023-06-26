@@ -1,5 +1,5 @@
 <div align="center">
-  <h3><b>To Do list</b></h3>
+  <h3><b>Leaderboard</b></h3>
 
 </div>
 
