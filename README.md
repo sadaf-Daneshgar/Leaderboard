@@ -24,7 +24,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -61,10 +60,10 @@
  - Added check errors with linters 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://sadaf-daneshgar.github.io/Leaderboard/dist/)
+## 🚀 Live Demo <a name="live-demo"></a>
 
+- [Click Here For Live](https://sadaf-daneshgar.github.io/Leaderboard)
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
