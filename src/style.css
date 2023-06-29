@@ -70,7 +70,7 @@ h1 {
   padding: 12px;
 }
 
-.table tr:nth-child(odd) { background-color: #c5ece9; }
+.table tr:nth-child(odd) { background-color: #d1f8f5; }
 
 .right-side {
   margin-left: 50px;
