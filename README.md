@@ -63,7 +63,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Click Here For Live](https://sadaf-daneshgar.github.io/Leaderboard)
+- [Click Here For Live](https://sadaf-daneshgar.github.io/Leaderboard/dist/)
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
