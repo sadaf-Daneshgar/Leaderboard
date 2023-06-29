@@ -113,7 +113,6 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -121,7 +120,7 @@ You can deploy this project using:
 
 - GitHub: [@githubhandle](https://github.com/sadaf-Daneshgar)
 - Twitter: [@twitterhandle](https://twitter.com/SadafDaneshgar)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sadaf-barekzai-00480a242)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sadaf-daneshgar-00480a242/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
