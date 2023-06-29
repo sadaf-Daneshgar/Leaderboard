@@ -1,11 +1,11 @@
 const gameID = 'Zl4d7IVkemOTTVg2fUdz';
-const baseURL = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameID}/scores`;
+const leaderboardURL = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameID}/scores`;
 
 const refreshScores = async () => {
   const table = document.querySelector('.table');
 
   try {
-    const response = await fetch(baseURL);
+    const response = await fetch(leaderboardURL);
     const data = await response.json();
 
     if (!Array.isArray(data)) {
@@ -51,12 +51,12 @@ const submitScore = async () => {
   const number = scoreInput.value.trim();
   if (name === '' || number === '') {
     const errorMessage = document.createElement('p');
-    errorMessage.textContent = 'Please enter your name and score.';
+    errorMessage.textContent = 'Please enter your name and score!';
     formPart.appendChild(errorMessage);
     return;
   }
   try {
-    const response = await fetch(baseURL, {
+    const response = await fetch(leaderboardURL, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -64,10 +64,10 @@ const submitScore = async () => {
       body: JSON.stringify({ user: name, score: number }),
     });
     if (!response.ok) {
-      throw new Error('Error submitting score. Please try again later.');
+      throw new Error('Error submitting score. Please try again later!');
     }
     const successMessage = document.createElement('p');
-    successMessage.textContent = 'Score submitted successfully.';
+    successMessage.textContent = 'Score submitted successfully!';
     formPart.appendChild(successMessage);
     nameInput.value = '';
     scoreInput.value = '';
@@ -79,7 +79,7 @@ const submitScore = async () => {
     localStorage.setItem('scores', JSON.stringify(scores));
   } catch (error) {
     const errorMessage = document.createElement('p');
-    errorMessage.textContent = error.message || 'Error submitting score. Please try again later.';
+    errorMessage.textContent = error.message || 'Error submitting score. Please try again later!';
     formPart.appendChild(errorMessage);
   }
 };
